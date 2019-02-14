@@ -1,0 +1,21 @@
+{
+  "name": "isa",
+  "version": "1.0.0",
+  "description": "",
+  "main": "dist/js/main.js",
+  "typings": "dist/types/main.d.ts",
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "tsc && tsc --module commonjs --outDir dist/lib"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/node": "^11.9.3",
+    "ts-node": "^8.0.2",
+    "typescript": "^3.3.3"
+  }
+}
